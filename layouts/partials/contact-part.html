@@ -12,7 +12,7 @@
             </div>
             <div class="col-md-6 contactpart2">
                 <div class="site-contact-form">
-                    <form id="contact-form" action="{{ .Site.Params.formspreeFormUrl }}" method="POST">
+                    <form id="contact-form" action="{{ .Site.Params.formspreeFormUrl }}" method="POST" enctype="multipart/form-data">
                         <div class="row">
                             <div class="col-md-12">
                                 <input type="text" class="form-control" name="full-name" id="full-name"
@@ -30,8 +30,9 @@
                                 <input type="text" class="form-control" name="organization" id="organization"
                                     placeholder="Organization">
                             </div>
+                             <input type="file" name="file">
                             <div class="col-md-12">
-                                <button aria-label="contact" type="submit" aria-label="contact-form-button" class="btn-contact" id="contact-form-button">
+                               <button aria-label="contact" type="submit" aria-label="contact-form-button" class="btn-contact" id="contact-form-button">
                                     <span class="btn-area">
                                         <span data-text="Send Message">
                                             Send
