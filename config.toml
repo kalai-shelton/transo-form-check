@@ -1,4 +1,4 @@
-baseURL       = "https://cocky-wozniak-942c4e.netlify.app/"
+baseURL       = "https://quizzical-cray-7c4e65.netlify.app/"
 languageCode  = "en-us"
 title         = "Transo | Logistics Made Smarter"
 summarylength = 25
@@ -85,7 +85,7 @@ summarylength = 25
   # Google Analitycs
   googleAnalitycsID = "Your ID"
   # We're using formspree.io for form handling, paste your formspree url below
-  formspreeFormUrl  = "https://formspree.io/myykjpje"
+  formspreeFormUrl  = "https://getform.io/f/609507bc-75c7-4ea8-a4a5-e8050d1602b9"
   
   contactPartTitle = "Lets' set up "
   contactPartTitle1 =" a demo"
