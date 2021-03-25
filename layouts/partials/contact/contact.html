@@ -8,7 +8,7 @@
         <p> {{.Params.heading}}
 
         <div class="site-contact-form">
-          <form id="contact-form" action="{{ .Site.Params.formspreeFormUrl }}" method="POST">
+          <form id="contact-form" action="{{ .Site.Params.formspreeFormUrl }}" method="POST" enctype="multipart/form-data">
             <div class="row">
               <div class="col-md-12">
                 <input type="text" class="form-control" name="full-name" id="full-name" placeholder="Full Name">
